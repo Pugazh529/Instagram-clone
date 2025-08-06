@@ -28,9 +28,9 @@ function Content() {
                                     <img className="postimg" src={posts.image} alt="" />
                                 ))}
                             <div>
-                                <i class="bi bi-hand-thumbs-up"></i>
-                                <i class="bi bi-chat-left-heart"></i>
-                                <i class="bi bi-send"></i>
+                                <i className="bi bi-hand-thumbs-up"></i>
+                                <i className="bi bi-chat-left-heart"></i>
+                                <i className="bi bi-send"></i>
                             </div>
                             {post.posts.map((posts)=>(
                                 <>

@@ -1,0 +1,7 @@
+{
+      "id": 1,
+      "username": "pugazh_dev",
+      "name": "Pugazh",
+      "profilePicture": "https://i.pinimg.com/1200x/ab/b5/33/abb533741bcd9b568b61308b20d49673.jpg",
+      "bio": "Frontend dev | React enthusiast"
+}
