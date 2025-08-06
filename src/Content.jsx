@@ -6,7 +6,7 @@ function Content() {
 
     useEffect(() => {
 
-        fetch('https://pugazh-creator.github.io/Host/instadata.json')
+        fetch('https://pugazh529.github.io/HostData/users.json')
             .then((data) => data.json())
             .then((data) => {
                 setPost(data);
@@ -19,9 +19,9 @@ function Content() {
 
             <div className='d-flex justify-content-center flex-wrap '>
                 {post && post.map((post) => (
-                    <div className='posts'>
+                    <div className='posts my-3' key={post.id}>
                         <div className='d-flex profilepicusername'>
-                            <img className=' dp rounded-circle' src={post.profilePicture} alt="Progileimg" />
+                            <img className=' dp rounded-circle' src={post.profilePicture} alt="Profileimg" />
                             <h5>{post.username}</h5>
                         </div>
                                 {post.posts.map((posts) => (

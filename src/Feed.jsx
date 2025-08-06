@@ -5,7 +5,7 @@ import Reel from './Reel'
 function Feed() {
   return (
     <div className='parent'>
-        <div className='Reel-page'><Reel/></div>
+        <div className='Reel-page bg-info'><Reel/></div>
         <div className=''><Content/></div>
     </div>
   )
